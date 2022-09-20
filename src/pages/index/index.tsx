@@ -5,6 +5,7 @@ import "./index.scss";
 import Meizu1 from '../assets/banner/meizu1.jpeg';
 import Meizu2 from '../assets/banner/meizu2.jpeg';
 import Meizu3 from '../assets/banner/meizu3.jpeg';
+import SinglePeople from '../components/singlePeople';
 
 export default class Index extends Component {
   componentWillMount() {}
@@ -47,6 +48,10 @@ export default class Index extends Component {
             />
           </SwiperItem>
         </Swiper>
+        <View>
+          <SinglePeople />
+          <SinglePeople />
+        </View>
       </View>
     );
   }
