@@ -12,13 +12,14 @@ export default {
   },
   tabBar: {
     "selectedColor": "#ee2746",
+    // "selectedColor": "#1890ff",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "pages/assets/img/home.png",
         "selectedIconPath": "pages/assets/img/home_selected.png"
-      }, 
+      },
       {
         "pagePath": "pages/follow/index",
         "text": "关注",

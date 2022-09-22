@@ -3,6 +3,8 @@ import {View, Text, Image} from '@tarojs/components'
 import './index.scss'
 import StaticPeople from "../../assets/static/liu.png";
 import IdenityPng from "../../assets/img/idenity.png";
+import WomenPng from "../../assets/img/women.png";
+import manPng from "../../assets/img/man.png";
 
 export default class Index extends Component {
 
@@ -12,9 +14,12 @@ export default class Index extends Component {
 
   componentWillUnmount () { }
 
-  componentDidShow () { }
+  componentDidShow () {
+  }
 
-  componentDidHide () { }
+  componentDidHide () {
+
+  }
 
   render () {
     return (
@@ -35,19 +40,28 @@ export default class Index extends Component {
                   src={IdenityPng}
                 />
               </View>
+              <View className='single-header-gender'>
+                <Image
+                  src={WomenPng}
+                />
+              </View>
             </View>
           </View>
 
           <View className='single-basic'>
+            <Text className="single-basic-text">未婚</Text>
             <Text className="single-basic-text">31岁</Text>
-            <Text className="single-basic-text">2000-5000</Text>
             <Text className="single-basic-text">155cm</Text>
-            <Text className="single-basic-text">31岁</Text>
+            <Text className="single-basic-text">本科</Text>
           </View>
 
           <View className='single-basic'>
             <Text className="single-basic-text">居住地：浙江杭州</Text>
             <Text className="single-basic-text">籍贯：浙江杭州</Text>
+          </View>
+          <View className='single-basic'>
+            <Text className="single-basic-text">职业：演员</Text>
+            <Text className="single-basic-text">收入：3000-5000</Text>
           </View>
         </View>
 
