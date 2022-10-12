@@ -1,5 +1,6 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
+import { AtAvatar } from 'taro-ui'
 import './index.scss'
 
 export default class Index extends Component {
@@ -16,8 +17,16 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
-        <Text>Hello world!</Text>
+      <View className='mine'>
+        <View className='mine-header'>
+          <View className='mine-header-left'>
+          <AtAvatar image='https://jdc.jd.com/img/200'></AtAvatar>
+          </View>
+          <View className='mine-header-right'>
+           22
+          </View>
+
+        </View>
       </View>
     )
   }

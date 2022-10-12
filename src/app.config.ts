@@ -1,8 +1,8 @@
 export default {
   pages: [
+    'pages/mine/index',
     'pages/index/index',
     'pages/follow/index',
-    'pages/mine/index',
   ],
   window: {
     backgroundTextStyle: 'light',
